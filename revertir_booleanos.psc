@@ -6,13 +6,19 @@ Algoritmo revertir_booleano
 	leer valor2
 	Si valor1 = Verdadero Entonces
 		valor1 = falso
-		valor2= Verdadero
 	SiNo
 		Si valor1= falso Entonces
-			valor1= Verdadero
-			valor2 =  falso
+			valor1 = Verdadero
+		Fin Si
+	Fin Si
+	Si valor2= Verdadero Entonces
+		valor2= Falso
+	SiNo
+		Si  valor2= falso Entonces
+			Valor2 = Verdadero
 		Fin Si
 	Fin Si
 	Escribir "El resultado del primer booleano es :" valor1
 	Escribir "El resultado del Segundo booleano es :" valor2
+FinAlgoritmo
 FinAlgoritmo
