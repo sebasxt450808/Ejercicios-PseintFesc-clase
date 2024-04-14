@@ -21,4 +21,3 @@ Algoritmo revertir_booleano
 	Escribir "El resultado del primer booleano es :" valor1
 	Escribir "El resultado del Segundo booleano es :" valor2
 FinAlgoritmo
-FinAlgoritmo
